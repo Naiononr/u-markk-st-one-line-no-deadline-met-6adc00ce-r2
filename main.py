@@ -1,14 +1,14 @@
 """One Line, No Deadline Met — a single-line excuse for a missed deadline.
 
 Writes the line to /output/entry.txt (or $OUTPUT_DIR/entry.txt locally).
-Draft line: Sorry it's late — my calendar said 'due tomorrow' every day
-this week, and honestly, I believed it every single time.
+Final line: Sorry I missed the deadline — I left it with tomorrow, and
+tomorrow turned out to be a very convincing liar.
 """
 
 import os
 import tempfile
 
-LINE = "Sorry it's late \u2014 my calendar said 'due tomorrow' every day this week, and honestly, I believed it every single time."
+LINE = "Sorry I missed the deadline \u2014 I left it with tomorrow, and tomorrow turned out to be a very convincing liar."
 
 
 def main() -> None:
